@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhavikshah.propose.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewPrincess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        app:srcCompat="@mipmap/karuna" />
+
+    <ImageView
+        android:id="@+id/imageViewWhoMe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        app:srcCompat="@mipmap/whomeee" />
+
+    <ImageView
+        android:id="@+id/imageViewComeHere"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        app:srcCompat="@mipmap/comehere" />
+
+    <TextView
+        android:id="@+id/prinessTxtView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Hey Princess !!!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageViewsayit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/sayitss" />
+
+    <ImageView
+        android:id="@+id/imageViewsleep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        app:srcCompat="@mipmap/mesleeping" />
+
+    <ImageView
+        android:id="@+id/imageViewBD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/birthdayyy" />
+
+    <ImageView
+        android:id="@+id/imageViewsea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/sea" />
+
+    <ImageView
+        android:id="@+id/imageViewannoy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/infy" />
+
+    <ImageView
+        android:id="@+id/imageViewcud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/cud" />
+
+    <ImageView
+        android:id="@+id/imageViewproposal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/propose" />
+
+    <ImageView
+        android:id="@+id/imageViewthink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        android:background="@drawable/ic_launcher_background"
+        app:srcCompat="@mipmap/thinkandanse" />
+
+    <ImageView
+        android:id="@+id/imageViewjamun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/prinessTxtView"
+        android:alpha="0"
+        app:srcCompat="@mipmap/jamun" />
+</android.widget.RelativeLayout>
